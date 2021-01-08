@@ -1,0 +1,29 @@
+html {
+    background-color: white;
+    max-width: 650px;
+    max-height: 280px;
+    margin: 0 auto;
+}
+body {
+    background-color: #800020;
+    display: block;
+}
+header {
+    background-color: #030202;
+    color: #F3D653;
+    display: block
+}
+h1 {
+    text-align: center;
+}
+img {
+    float: right;
+    border-style: none;
+    width: 200px;
+}
+footer {
+    background-color: #030202;
+    color: #F3D653;
+    display: block;
+    text-align: center;
+}
