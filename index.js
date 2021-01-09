@@ -1,3 +1,3 @@
-const Date = document.lastModified
+const Update = document.lastModified
 
-document.querySelector("#date").textContent = Date;
+document.querySelector("#update").textContent = Update;
