@@ -17,6 +17,7 @@ header {
 h1 {
     text-align: center;
     padding: 5px;
+    font-family: 'Quicksand', sans-serif;
 }
 img {
     float: right;
@@ -26,6 +27,9 @@ img {
 main {
     color: #F3D653;
     padding: 10px;
+}
+h2 {
+    font-family: 'Quicksand', sans-serif;
 }
 footer {
     background-color: #030202;
@@ -38,4 +42,5 @@ h5 {
     margin-top: 7px;
     margin-bottom: 7px;
     padding: 2px;
+    font-family: 'Quicksand', sans-serif;
 }
