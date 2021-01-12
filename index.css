@@ -9,10 +9,11 @@ body {
     display: block;
     border-radius: 15px;
 }
-header {
+header img {
+    float: right;
     background-color: #030202;
     color: #F3D653;
-    border-radius: 15px;
+    border-radius: 0 15px 0 0;
 }
 h1 {
     text-align: center;
@@ -20,7 +21,6 @@ h1 {
     font-family: 'Quicksand', sans-serif;
 }
 img {
-    float: right;
     border-style: none;
     width: 200px;
 }
