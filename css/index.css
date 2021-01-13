@@ -6,14 +6,14 @@ html {
 }
 
 body {
-    background-color: #800020;
+    background-color: #73c2Fb;
     display: block;
     border-radius: 15px;
 }
 
 header, footer {
-    background-color: #030202;
-    color: #F3D653;
+    background-color: #0f52ba;
+    color: #030202;
     text-align: center;
 }
 header img {
@@ -30,7 +30,7 @@ img {
 }
 
 main {
-    color: #F3D653;
+    color: #030202;
     padding: 10px;
 }
 h2 {
