@@ -13,8 +13,7 @@ body {
 
 header, footer {
     background-color: #0f52ba;
-    /* color: #030202; */
-    color: white;
+    color: #030202;
     text-align: center;
 }
 header img {
@@ -31,8 +30,7 @@ img {
 }
 
 main {
-    /* color: #030202; */
-    color: white;
+    color: #030202;
     padding: 10px;
 }
 h2 {
