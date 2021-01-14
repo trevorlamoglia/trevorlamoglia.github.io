@@ -5,12 +5,14 @@ html {
     margin: 0 auto;
 }
 
+/* body css */
 body {
     background-color: #73c2Fb;
     display: block;
     border-radius: 15px;
 }
 
+/* header, footer css */
 header, footer {
     background-color: #0f52ba;
     color: white;
@@ -29,6 +31,7 @@ img {
     border-style: none;
 }
 
+/* main css */
 main {
     color: #030202;
     padding: 10px;
@@ -37,9 +40,14 @@ h2 {
     font-family: 'Quicksand', sans-serif;
 }
 
+/* footer css */
 h5 {
     margin-top: 7px;
     margin-bottom: 7px;
     padding: 2px;
     font-family: 'Quicksand', sans-serif;
+}
+
+footer a {
+    color: white;
 }
