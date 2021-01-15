@@ -13,10 +13,12 @@ h1, h2, p {
 }
 
 .visual, .wscd, .proximity {
+    background-color: #89cff0;
     margin: auto;
     padding: 5px;
     display: grid;
     border: solid 2px black;
+    box-shadow: 3px 5px 6px black;
 }
 
 h1 {
@@ -29,7 +31,7 @@ h1 {
     padding: .8em;
 }
 h2 {
-    margin: 25px 0 25px 0;
+    margin: 25px 0;
     padding: 0 15px;
     text-align: left;
 }
@@ -49,6 +51,5 @@ div a {
 }
 
 img {
-    margin: auto;
     width: 320px;
 }
