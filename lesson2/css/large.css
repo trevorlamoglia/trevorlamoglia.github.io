@@ -2,7 +2,7 @@
     #principles {
         display: grid;
         grid-template-columns: auto auto auto;
-        grid-gap: 50px;
+        grid-gap: 25px;
     }
 
 
