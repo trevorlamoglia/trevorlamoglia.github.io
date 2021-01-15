@@ -36,9 +36,14 @@ main {
     color: #030202;
     padding: 10px;
 }
-h2 {
+h2, li {
     font-family: 'Quicksand', sans-serif;
 }
+
+li a {
+    color: black;
+}
+
 
 /* footer css */
 h5 {

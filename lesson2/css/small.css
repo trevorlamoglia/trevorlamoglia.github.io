@@ -49,6 +49,11 @@ div a {
     font-size: 15pt;
     margin: 16px 0;
     padding: 0 15px;
+    color: black;
+}
+
+a:hover {
+    color: white;
 }
 
 img {
