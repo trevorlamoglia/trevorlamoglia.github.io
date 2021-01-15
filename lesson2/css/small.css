@@ -1,0 +1,54 @@
+body {
+    background-color: #73c2Fb;
+}
+
+h1, h2, p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#principles {
+    display: grid;
+    padding: 25px;
+    margin: 20px;
+}
+
+.visual, .wscd, .proximity {
+    margin: auto;
+    padding: 5px;
+    display: grid;
+    border: solid 2px black;
+}
+
+h1 {
+    background-color: #0f52ba;
+    color: white;
+    text-shadow: 3px 3px 1px black;
+    border: solid 2px black;
+    text-align: center;
+    font-size: 2.3em;
+    padding: .8em;
+}
+h2 {
+    margin: 25px 0 25px 0;
+    padding: 0 15px;
+    text-align: left;
+}
+
+.site {
+    text-align: center;
+    font-size: 24pt;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+div a {
+    text-align: right;
+    font-size: 15pt;
+    margin: 16px 0;
+    padding: 0 15px;
+}
+
+img {
+    margin: auto;
+    width: 320px;
+}
