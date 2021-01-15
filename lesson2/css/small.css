@@ -52,5 +52,6 @@ div a {
 }
 
 img {
+    margin: auto;
     width: 320px;
 }
