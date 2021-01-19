@@ -1,68 +1,87 @@
+* { -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+
+/* body rules  */
 body {
     background-color: #73c2Fb;
 }
 
-h1, h2, p {
-    font-family: 'Quicksand', sans-serif;
-}
-
-#principles {
-    display: grid;
-    padding: 25px;
-    margin: 20px;
-    grid-gap: 25px;
-}
-
-.visual, .wscd, .proximity {
-    background-color: #89cff0;
-    margin: 0 auto;
-    padding: 0 25px;
-    display: grid;
-    border: solid 2px black;
-    box-shadow: 3px 5px 6px black;
-}
-
-h1 {
+/* header rules here */
+header {
     background-color: #0f52ba;
     color: white;
     text-shadow: 3px 3px 1px black;
-    border: solid 2px black;
     text-align: center;
+    padding: .7em;
+    margin-bottom: 15px;
+}
+
+/* main rules here */
+.principles { 
+    background-color: #89cff0;
+    padding: 25px;
+    display: grid;
+    grid-gap: 35px;
+}
+.card-1, .card-2, .card-3 {
+    border: solid 2px black;
+    padding: 15px;
+    display: grid;
+    box-shadow: 3px 5px 6px black;
+}
+.site {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 16px;
+    padding: 0 15px;
+    font-size: 1.8rem;
+}
+div a {
+    color: black;
+    font-size: 1.3rem;
+    text-align: right;
+    padding: 0 15px;
+    
+}
+a:hover {
+    color: white;
+}
+.image {
+    margin: auto;
+    max-width: 100%;
+}
+
+
+
+/* footer rules here */
+footer {
+    background-color: #0f52ba;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    padding: .7em;
+}
+footer a {
+    font-size: 1rem;
+    color: white;
+}
+
+
+/* character rules here */
+h1 {
     font-size: 2.3em;
-    padding: .8em;
 }
 h2 {
     margin: 25px 0;
     padding: 0 15px;
     text-align: left;
 }
-
-.site {
-    text-align: center;
-    font-size: 24pt;
-    margin-top: 0;
-    margin-bottom: 16px;
+h1, h2, p {
+    font-family: 'Quicksand', sans-serif;
 }
-
-div a {
-    text-align: right;
-    font-size: 15pt;
-    margin: 16px 0;
-    padding: 0 15px;
-    color: black;
-}
-
-a:hover {
-    color: white;
-}
-
-img {
-    margin: 0 auto;
-    width: 320px;
-}
-
 p {
-    display: block;
     text-align: center;
-    font-size: 14pt;
+    font-size: 1.3rem;
 }
