@@ -49,6 +49,9 @@ nav ul li a:hover {
 
 
 /* main rules here */
+main {
+    margin: 0 auto;
+}
 main img {
     width: 140px;
 }
@@ -62,4 +65,26 @@ footer {
 }
 footer a {
     color: white;
+}
+
+/* color-scheme.html rules */
+.header, .footer {
+    border: solid 2px black;
+    padding: 5px;
+    background-color: #FA8223;
+}
+.logo {
+    border: solid 2px black;
+    padding: 5px;
+    background-color: #FFDF77;
+}
+.navigation {
+    border: solid 2px black;
+    padding: 5px;
+    background-color: #FD9A24;
+}
+.body {
+    border: solid 2px black;
+    padding: 5px;
+    background-color: #FCCF3E;
 }
