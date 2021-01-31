@@ -4,7 +4,7 @@
 
 /* body rules  */
 body {
-    background-color: #fccf3e;
+    color: black;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -86,7 +86,7 @@ footer a {
 .body {
     border: solid 2px black;
     padding: 5px;
-    background-color: #FCCF3E;
+    background-color: white;
 }
 
 /* typography.html rules */
