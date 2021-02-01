@@ -119,10 +119,11 @@
         margin: 0 auto;
     }
     .pin {
-        display: inline;
+        display: block;
     }
     .social {
         display: inline-block;
+        padding-top: 10px;
     }
     .contact {
         display: inline;
