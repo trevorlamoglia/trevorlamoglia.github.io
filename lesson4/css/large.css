@@ -2,7 +2,7 @@
 
     header {
         max-width: 1080px;
-        margin: auto;
+        margin: 0 auto;
     }
 
     /* main rules here */
@@ -16,11 +16,12 @@
     main .summary {
         background-color: white;
         border: 1px solid black;
-        top: 290px;
+        top: 280px;
         left: 250px;
         position: absolute;
-        width: 265px;
-        height: 265px;
+        width: 285px;
+        height: 285px;
+        padding: 10px;
     }
     main .forecastImage {
         display: flex;
@@ -70,7 +71,58 @@
     nav ul li a {
         border: none;
         border-right: 1px solid rgba(0,0,0,0.3);
-        padding : .6rem 1rem;
+        padding: .6rem 1rem;
+    }
+
+    /* footer rules here */
+    footer {
+        max-width: 1080px;
+        background-color: #fa8223;
+        color: white;
+        margin: 10px auto;
+    }
+    footer h3 {
+        font-size: 26px;
+    }
+    footer h5 {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .footerSplit {
+        max-width: 1080px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        padding-top: 15px;
+    }
+    footer img {
+        width: 400px;
+    }
+    .location {
+        padding-left: 75px;
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+    .location img {
+        margin: 0 auto;
+        display: block;
+    }
+    .contact {
+        display: inline;
+        padding-left: 125px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+    .contact img {
+        display: inline;
+        width: 30px;
+        padding-right: 5px;
+    }
+    .contact div img {
+        display: inline;
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 70px;
     }
 
 }
