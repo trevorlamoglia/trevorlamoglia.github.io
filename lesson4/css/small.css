@@ -29,7 +29,22 @@ header h1, h3 {
 }
 
 /* main rules here */
+main .heroImage {
+    width: 100%;
+}
 
+.five {
+    text-align: center;
+    background-color: #ffdf77;
+    padding: 20px;
+    margin: 0;
+}
+.forecastImage {
+    display: none;
+}
+.articleImage {
+    width: 100%;
+}
 
 /* nav rules here */
 nav {
@@ -60,6 +75,11 @@ nav ul li a:hover {
 }
 nav ul.hide {
     display: none;
+}
+
+/* footer rules here */
+.location img {
+    width: 100%;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/

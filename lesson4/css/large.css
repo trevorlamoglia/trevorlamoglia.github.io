@@ -33,6 +33,10 @@
         border: 2px double black;
         width: 125px;
     }
+    .five {
+        text-align: left;
+        background-color: transparent;
+    }
     article {
         display: block;
         margin-top: 20px;
@@ -93,12 +97,12 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin: auto;
-        padding-top: 15px;
     }
     footer img {
         width: 400px;
     }
     .location {
+        padding-top: 30px;
         padding-left: 75px;
         grid-column-start: 1;
         grid-row-start: 1;
