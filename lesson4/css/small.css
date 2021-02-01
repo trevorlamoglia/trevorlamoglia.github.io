@@ -32,18 +32,43 @@ header h1, h3 {
 main .heroImage {
     width: 100%;
 }
+main .summary {
+    padding-left: 15px;
+}
+h1 {
+    padding-left: 15px;
+}
 
 .five {
     text-align: center;
-    background-color: #ffdf77;
+    background-color: #fa8223;
     padding: 20px;
     margin: 0;
 }
 .forecastImage {
     display: none;
 }
+.forecast {
+    border: 3px solid black;
+}
+
+article {
+    padding: 10px;
+}
+.articleTitle {
+    grid-row-start: 1;
+}
+.articleSplit {
+    display: grid;
+    grid-template-rows: 35px 390px 190px;
+}
 .articleImage {
+    grid-row-start: 3;
     width: 100%;
+    padding-bottom: 15px;
+}
+.articleP {
+    grid-row-start: 2;
 }
 
 /* nav rules here */
@@ -78,8 +103,34 @@ nav ul.hide {
 }
 
 /* footer rules here */
+footer {
+    background-color: #fa8223;
+    color: white;
+    padding: 4px 1%;
+}
 .location img {
+    padding: 15px;
     width: 100%;
+}
+.social {
+    display: none;
+}
+.pin {
+    display: none;
+}
+.contact {
+    padding-left: 30px;
+}
+.contact img {
+    width: 30px;
+    padding-right: 5px;
+}
+.contact p {
+    padding: 5px 0;
+    margin: 0;
+}
+footer h5 {
+    text-align: center;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
@@ -87,4 +138,4 @@ nav ul.hide {
     content: "";
     display: table;
     clear: both;
-  }
+}
