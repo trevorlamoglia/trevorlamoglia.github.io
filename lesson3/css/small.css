@@ -30,7 +30,7 @@ header h1, h3 {
 /* navigation rules here */
 nav {
     display: block;
-    background-color: #fd9a24;
+    background-color: #63c5da;
     padding: 5px 0;
 }
 nav ul li {
@@ -81,7 +81,7 @@ footer a {
 .navigation {
     border: solid 2px black;
     padding: 5px;
-    background-color: #FD9A24;
+    background-color: #63c5da;
 }
 .body {
     border: solid 2px black;

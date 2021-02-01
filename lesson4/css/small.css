@@ -28,14 +28,39 @@ header h1, h3 {
     float: center;
 }
 
+/* main rules here */
+
+
 /* nav rules here */
 nav {
-    display: block;
     background-color: #63c5da;
     padding: 5px 0;
 }
-
-
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+    border-top: 1px solid rgba(0,0,0,.4);
+}
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+nav ul.hide {
+    display: none;
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

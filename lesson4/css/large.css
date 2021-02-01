@@ -1,34 +1,51 @@
 @media only screen and (min-width: 720px) {
 
-
     header {
         max-width: 1080px;
         margin: auto;
     }
 
+    /* main rules here */
+    main {
+        max-width: 1080px;
+        margin: auto;
+    }
+    main .heroImage {
+        width: 1080px;
+    }
+    main .summary {
+        background-color: white;
+        border: 1px solid black;
+        top: 290px;
+        left: 250px;
+        position: absolute;
+        width: 265px;
+        height: 265px;
+    }
+
+    /* nav rules here */
+    nav {
+        padding-left: 201px;
+    }
     nav button {
         display: none;
     }
-        
+    nav ul {
+        margin-left: 2%;
+    }
     nav ul.hide {
         display: block;
     }
-        
-    nav ul {
-        list-style-type: none;
-        margin-left: 2%;
+    nav ul.primaryNav {
+        display: flex;
     }
-        
     nav ul li {
         float: left;
     }
-        
     nav ul li a {
         border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
         padding : .6rem 1rem;
     }
-
-
-
 
 }
