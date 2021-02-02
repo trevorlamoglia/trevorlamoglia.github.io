@@ -13,7 +13,7 @@ body {
 /* header rules here */
 header {
     background-color: #fa8223;
-    color: white;
+    color: black;
     padding: 4px 1%;
 }
 header img {
@@ -102,7 +102,7 @@ nav ul.hide {
 /* footer rules here */
 footer {
     background-color: #fa8223;
-    color: white;
+    color: black;
     padding: 1px;
 }
 .location img {
