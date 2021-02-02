@@ -23,9 +23,6 @@ header img {
     padding: 5px;
     margin: 5px 15px 0 10px;
 }
-header h1, h3 {
-    float: center;
-}
 
 /* navigation rules here */
 nav {
