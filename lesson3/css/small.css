@@ -34,14 +34,16 @@ nav ul li {
     list-style-type: none;
     display: inline-flex;
     text-align: center;
-    padding: 0 15px;
 }
 nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0,0,0,0.3);
+    padding: .1rem 15px;    
     color: white;
     text-decoration: none;
 }
 nav ul li a:hover {
-    background-color: #f55f22;
+    background-color: rgba(0,0,0,0.4);
 }
 
 
