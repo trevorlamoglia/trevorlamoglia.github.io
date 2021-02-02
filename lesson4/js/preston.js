@@ -29,6 +29,5 @@ const dateToday = new Date();
 const dayName = dayNames[dateToday.getDay()];
 const monthName = months[dateToday.getMonth()];
 const year = dateToday.getFullYear();
-const presentDate = dayName + "," + " " + monthName + " " + dateToday.getDate() + " " + year;
-const option = {weekday: 'long', month: 'short', day: 'numeric', year: 'numeric'};
+const presentDate = dayName + "," + " " + dateToday.getDate() + " " + monthName + " " + year;
 document.getElementById("presentDate").textContent = presentDate;
