@@ -8,7 +8,7 @@ function toggleMenu() {
 }
 
 
-const dayName = [
+const dayNames = [
     "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
 ];
 const months = [
@@ -29,6 +29,6 @@ const dateToday = new Date();
 const dayName = dayNames[dateToday.getDay()];
 const monthName = months[dateToday.getMonth()];
 const year = dateToday.getFullYear();
-const currentDate = dayName + "," + " " + monthName + " " + dateToday.getDate() + " " + year;
+const presentDate = dayName + "," + " " + monthName + " " + dateToday.getDate() + " " + year;
 const option = {weekday: 'long', month: 'short', day: 'numeric', year: 'numeric'};
-document.getElementById("currentDate").textContent = currentDate;
+document.getElementById("presentDate").textContent = presentDate;
