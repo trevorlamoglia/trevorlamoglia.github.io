@@ -1,0 +1,143 @@
+@media only screen and (min-width: 720px) {
+
+    header {
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+
+    /* main rules here */
+    main {
+        max-width: 1080px;
+        margin: auto;
+    }
+    main .heroImage {
+        width: 1080px;
+    }
+    main .summary {
+        background-color: white;
+        border: 1px solid black;
+        top: 280px;
+        left: 250px;
+        position: absolute;
+        width: 285px;
+        height: 285px;
+        padding: 10px;
+    }
+    .summary h3, p {
+        padding: 0;
+    }
+    main .forecastImage {
+        display: flex;
+        justify-content: space-around;
+        background-color: #fa8223;
+        padding: 6px;
+    }
+    main .forecastImage img {
+        border: 2px double black;
+        width: 125px;
+    }
+
+    .five {
+        text-align: left;
+        background-color: transparent;
+    }
+    .forecast {
+        border: none;
+    }
+
+    article {
+        display: block;
+        margin-top: 20px;
+        border: 3px solid black;
+        padding-left: 15px;
+    }
+    .articleSplit {
+        display: block;
+    }
+    .articleImage {
+        float: right;
+        width: 230px;
+        padding: 30px 20px 10px 10px;
+    }
+    article p {
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    /* nav rules here */
+    nav {
+        padding-left: 201px;
+    }
+    nav button {
+        display: none;
+    }
+    nav ul {
+        margin-left: 2%;
+    }
+    nav ul.hide {
+        display: block;
+    }
+    nav ul.primaryNav {
+        display: flex;
+    }
+    nav ul li {
+        float: left;
+    }
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .6rem 1rem;
+    }
+
+    /* footer rules here */
+    footer {
+        max-width: 1080px;
+        background-color: #fa8223;
+        margin: 10px auto;
+    }
+    footer h3 {
+        font-size: 26px;
+    }
+    footer h5 {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .footerSplit {
+        max-width: 1080px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    footer img {
+        width: 400px;
+    }
+    .location {
+        padding-top: 30px;
+        padding-right: 100px;
+    }
+    .location img {
+        margin: 0 auto;
+    }
+    .pin {
+        display: block;
+    }
+    .social {
+        display: inline-block;
+        padding-top: 10px;
+    }
+    .contact {
+        display: inline;
+        padding-right: 125px;
+    }
+    .contact img {
+        display: inline;
+        width: 30px;
+        padding-right: 5px;
+    }
+    .contact div img {
+        display: inline;
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 70px;
+    }
+
+}
