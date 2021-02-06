@@ -16,7 +16,7 @@
     main .summary {
         background-color: white;
         border: 1px solid black;
-        top: 280px;
+        top: 305px;
         left: 250px;
         position: absolute;
         width: 285px;
@@ -105,7 +105,7 @@
     .footerSplit {
         max-width: 1080px;
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
     }
     footer img {
         width: 400px;
