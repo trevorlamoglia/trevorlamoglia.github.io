@@ -32,6 +32,15 @@ main .heroImage {
 main .summary {
     padding-left: 15px;
 }
+div#message {
+    background-color: cornflowerblue;
+}
+div.showme {
+    display: block;
+}
+div.hideme {
+    display: none;
+}
 h1 {
     padding-left: 15px;
 }
