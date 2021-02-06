@@ -26,36 +26,25 @@ header img {
 }
 
 /* main rules here */
+div#message {
+    background-color: cornflowerblue;
+}
+
 main .heroImage {
     width: 100%;
 }
 main .summary {
     padding-left: 15px;
 }
-div#message {
-    background-color: cornflowerblue;
-}
-div.showme {
-    display: block;
-}
-div.hideme {
-    display: none;
-}
 h1 {
     padding-left: 15px;
 }
 
-.five {
-    text-align: center;
-    background-color: #fa8223;
-    padding: 20px;
-    margin: 0;
-}
-.forecastImage {
+.forecastTitle {
     display: none;
 }
-.forecast {
-    border: 3px solid black;
+section.forecast {
+    display: none;
 }
 
 article {
@@ -66,7 +55,7 @@ article {
 }
 .articleSplit {
     display: grid;
-    grid-template-rows: 35px 390px 190px;
+    grid-template-rows: 35px 445px 190px;
 }
 .articleImage {
     grid-row-start: 3;

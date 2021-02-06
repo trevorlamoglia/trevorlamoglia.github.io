@@ -11,7 +11,7 @@
         margin: auto;
     }
     main .heroImage {
-        width: 1080px;
+        width: 100%;
     }
     main .summary {
         background-color: white;
