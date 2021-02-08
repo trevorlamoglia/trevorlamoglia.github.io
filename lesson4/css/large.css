@@ -18,7 +18,7 @@
         border: 1px solid black;
         top: 280px;
         left: 250px;
-        position: absolute;
+        /* position: absolute; */
         width: 285px;
         height: 285px;
         padding: 10px;
@@ -65,23 +65,18 @@
     }
 
     /* nav rules here */
-    nav {
-        padding-left: 201px;
-    }
     nav button {
         display: none;
     }
     nav ul {
-        margin-left: 2%;
+        max-width: 1080px;
+        margin: auto;
     }
     nav ul.hide {
-        display: block;
+        display: inline;
     }
-    nav ul.primaryNav {
+    nav ul#primaryNav {
         display: flex;
-    }
-    nav ul li {
-        float: left;
     }
     nav ul li a {
         border: none;
