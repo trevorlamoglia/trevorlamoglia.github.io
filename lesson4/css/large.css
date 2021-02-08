@@ -17,8 +17,8 @@
         background-color: white;
         border: 1px solid black;
         top: 280px;
-        left: 250px;
-        /* position: absolute; */
+        left: 300px;
+        position: absolute;
         width: 285px;
         height: 285px;
         padding: 10px;
