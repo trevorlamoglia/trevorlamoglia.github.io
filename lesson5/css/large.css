@@ -14,7 +14,7 @@
     main .heroImage {
         width: 100%;
     }
-    main .summary {
+    .summary {
         background-color: white;
         border: 1px solid black;
         top: 80px;
@@ -55,7 +55,7 @@
     .articleImage {
         float: right;
         width: 230px;
-        padding: 30px 20px 10px 10px;
+        padding-left: 15px;
     }
     article p {
         padding-left: 10px;
@@ -71,13 +71,10 @@
         margin: auto;
     }
     nav ul.hide {
-        display: block;
+        display: inline;
     }
-    nav ul.primaryNav {
+    nav ul#primaryNav {
         display: flex;
-    }
-    nav ul li {
-        float: left;
     }
     nav ul li a {
         border: none;
@@ -91,7 +88,7 @@
         background-color: #fa8223;
         margin: 10px auto;
     }
-    footer h3 {
+    footer h2 {
         font-size: 26px;
     }
     footer h5 {
@@ -100,7 +97,7 @@
     }
     .footerSplit {
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
     }
     footer img {
         width: 400px;
@@ -110,7 +107,7 @@
         padding-right: 100px;
     }
     .location img {
-        margin: 0 auto;
+        display: inline;
     }
     .pin {
         display: block;

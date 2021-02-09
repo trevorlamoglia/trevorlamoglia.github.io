@@ -55,7 +55,7 @@
     .articleImage {
         float: right;
         width: 230px;
-        padding: 30px 20px 10px 10px;
+        padding-left: 15px;
     }
     article p {
         padding-left: 10px;
@@ -88,7 +88,7 @@
         background-color: #fa8223;
         margin: 10px auto;
     }
-    footer h3 {
+    footer h2 {
         font-size: 26px;
     }
     footer h5 {
@@ -96,7 +96,6 @@
         padding-bottom: 10px;
     }
     .footerSplit {
-        max-width: 1080px;
         display: flex;
         flex-direction: row-reverse;
     }
@@ -106,9 +105,6 @@
     .location {
         padding-top: 30px;
         padding-right: 100px;
-    }
-    .location img {
-        margin: 0 auto;
     }
     .pin {
         display: block;
