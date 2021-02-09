@@ -26,6 +26,10 @@ header img {
 }
 
 /* main rules here */
+div#message {
+    background-color: cornflowerblue;
+}
+
 main .heroImage {
     width: 100%;
 }
@@ -36,17 +40,11 @@ h1 {
     padding-left: 15px;
 }
 
-.five {
-    text-align: center;
-    background-color: #fa8223;
-    padding: 20px;
-    margin: 0;
-}
-.forecastImage {
+.forecastTitle {
     display: none;
 }
-.forecast {
-    border: 3px solid black;
+section.forecast {
+    display: none;
 }
 
 article {
@@ -54,6 +52,10 @@ article {
 }
 .articleTitle {
     grid-row-start: 1;
+}
+.articleSplit {
+    display: grid;
+    grid-template-rows: 35px 445px 190px;
 }
 .articleImage {
     grid-row-start: 3;
