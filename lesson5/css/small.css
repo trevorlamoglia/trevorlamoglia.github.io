@@ -29,6 +29,12 @@ header img {
 div#message {
     background-color: cornflowerblue;
 }
+div.showme {
+    display: block;
+}
+div.hideme {
+    display: none;
+}
 
 main .heroImage {
     width: 100%;
@@ -50,20 +56,9 @@ section.forecast {
 article {
     padding: 10px;
 }
-.articleTitle {
-    grid-row-start: 1;
-}
-.articleSplit {
-    display: grid;
-    grid-template-rows: 35px 445px 190px;
-}
 .articleImage {
-    grid-row-start: 3;
     width: 100%;
     padding-bottom: 15px;
-}
-.articleP {
-    grid-row-start: 2;
 }
 
 /* nav rules here */
@@ -110,6 +105,7 @@ footer {
 .location img {
     padding: 15px;
     width: 100%;
+    display: none;
 }
 .social {
     display: none;

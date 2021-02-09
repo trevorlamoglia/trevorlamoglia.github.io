@@ -12,7 +12,7 @@
         position: relative;
     }
     main .heroImage {
-        width: 1080px;
+        width: 100%;
     }
     .summary {
         background-color: white;

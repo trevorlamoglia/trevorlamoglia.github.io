@@ -9,6 +9,7 @@
     main {
         max-width: 1080px;
         margin: auto;
+        position: relative;
     }
     main .heroImage {
         width: 100%;
@@ -16,15 +17,12 @@
     main .summary {
         background-color: white;
         border: 1px solid black;
-        top: 305px;
-        left: 250px;
+        top: 80px;
+        left: 50px;
         position: absolute;
         width: 285px;
         height: 285px;
         padding: 10px;
-    }
-    .summary h3, p {
-        padding: 0;
     }
     main .forecastImage {
         display: flex;
@@ -65,14 +63,12 @@
     }
 
     /* nav rules here */
-    nav {
-        padding-left: 201px;
-    }
     nav button {
         display: none;
     }
     nav ul {
-        margin-left: 2%;
+        max-width: 1080px;
+        margin: auto;
     }
     nav ul.hide {
         display: block;
@@ -103,7 +99,6 @@
         padding-bottom: 10px;
     }
     .footerSplit {
-        max-width: 1080px;
         display: flex;
         flex-direction: row;
     }
