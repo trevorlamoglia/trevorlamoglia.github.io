@@ -11,9 +11,6 @@
 <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-
-
-
 <!-- STYLE SHEETS -->
 <link href="css/normalize.css" rel="stylesheet">
 <!-- phone-default -->
@@ -21,14 +18,17 @@
 <!-- enhance-tablet -->
 <link href="css/medium.css" rel="stylesheet">
 <!-- enhance-desktop -->
-<link href="css/large.css" rel="stylesheet">
-
-
-     
+<link href="css/large.css" rel="stylesheet">    
 </head>
+
 <body>
 <!-- HEADER HERE -->
-	<header>
+	<header class="clearfix">
+        <figure class="logo">
+            <img src="images/logo0.png" alt="logo"
+            srcset="images/logo1.png 1x, images/logo2.png 2x,
+            images/logo3.png 3x">
+        </figure>
  <h1>Company Name Here</h1>
         <h2>Possible Slogan or Tagline</h2>
     </header>
@@ -48,7 +48,32 @@
 <!-- CONTENT HERE -->
     <main>
         <h1>Products</h1>
-        <p>The page name should almost exactly match the menu item. </p>
+        <figure class="myphoto">
+            <img src="images/golgotha.jpg" alt="golgotha" sizes="50vw"
+                srcset="images/golgotha200.jpg 200w,
+                        images/golgotha500.jpg 500w,
+                        images/golgotha800.jpg 800w,
+                        images/golgotha1100.jpg 1100w">
+            <figcaption>The Garden Tomb</figcaption>
+        </figure>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            In sed nibh dui. Donec egestas, leo in facilisis vulputate,
+            tortor mauris commodo velit, ac luctus nibh nulla quis magna.
+            Donec ac viverra ex, quis aliquam orci. Quisque at gravida nisl.
+            Cras magna lectus, viverra a posuere quis, euismod eget velit.
+            Orci varius natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus. Integer tempus est eget rutrum suscipit.
+            Proin condimentum, nisi eu commodo ultrices, elit elit ultrices purus,
+            et elementum dolor orci at dolor. Integer eu quam ac ex ullamcorper pharetra et vel est.
+
+            Etiam eget quam elit. Mauris fermentum dapibus lacus,
+            eget aliquet ex imperdiet ut. Sed elementum quam a enim sodales feugiat.
+            Sed lobortis, quam id ullamcorper molestie, diam urna suscipit diam,
+            sit amet tincidunt ante felis eget elit. Etiam dapibus,
+            lorem in consectetur ultricies, tortor arcu euismod eros,
+            et gravida justo velit in nulla. Aenean enim metus, ullamcorper et pulvinar eu,
+            luctus sit amet risus. Cras consectetur orci nisl, quis rhoncus nunc malesuada a.
+            Aliquam vitae gravida magna. Praesent sodales ligula lacus, quis efficitur tortor dictum sed.</p>
     </main>
     
 <!-- FOOTER HERE -->   
