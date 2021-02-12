@@ -34,7 +34,12 @@
     <main>
         <div id="message" class="showme">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
         <h1>Preston Idaho</h1>
-        <img class="heroImage" src="https://picsum.photos/500/155" alt="placeholder image">
+        <!-- <img class="heroImage" src="https://picsum.photos/500/155" alt="placeholder image"> -->
+        <picture class="photoA">
+            <source media="(max-width: 500px)" srcset="images/hero500.jpg">
+            <source media="(max-width: 800px)" srcset="images/hero800.jpg">
+            <img src="images/hero1100.jpg" alt="landscape">
+        </picture>
         <div class="summary">
             <h2>Weather Summary</h2>
             <p>

@@ -36,6 +36,10 @@ div.hideme {
     display: none;
 }
 
+.photoA img {
+    width: 100%;
+}
+
 main .heroImage {
     width: 100%;
 }
