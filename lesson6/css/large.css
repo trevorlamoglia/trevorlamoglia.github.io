@@ -15,7 +15,8 @@
         width: 100%;
     }
     .summary {
-        background-color: white;
+        background-color: rgba(57, 40, 148, 0.541);
+        color: white;
         border: 1px solid black;
         top: 120px;
         left: 50px;
@@ -23,6 +24,9 @@
         width: 285px;
         height: 285px;
         padding: 10px;
+    }
+    .summary h2 {
+        text-decoration: underline;
     }
     main .forecastImage {
         display: flex;
