@@ -11,6 +11,14 @@
         margin: auto;
         position: relative;
     }
+    main h1 {
+        padding-left: 15px;
+    }
+    
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
     /* nav rules here */
     nav button {
