@@ -9,15 +9,13 @@
     main {
         max-width: 1080px;
         margin: auto;
-        position: relative;
-    }
-    main h1 {
-        padding-left: 15px;
     }
     
     .gallery {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        padding-bottom: 15px;
     }
 
     /* nav rules here */
@@ -43,8 +41,7 @@
     /* footer rules here */
     footer {
         max-width: 1080px;
-        background-color: #fa8223;
-        margin: 10px auto;
+        margin: 0 auto;
     }
 
 }

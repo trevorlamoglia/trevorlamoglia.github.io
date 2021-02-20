@@ -26,7 +26,33 @@ header img {
 }
 
 /* main rules here */
+main h1 {
+    padding-left: 15px;
+}
 
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding-bottom: 15px;
+}
+.gallery figure {
+    box-shadow: 0 0 7px black;
+    margin: 0;
+    max-width: 100%;
+}
+.gallery img {
+    max-width: 100%;
+    display: block;
+}
+.gallery figcaption {
+    text-align: center;
+    display: block;
+    background-color: #63c5da;
+    color: white;
+    padding: 2px;
+    border: 1px solid black;
+}
 
 /* nav rules here */
 nav {
