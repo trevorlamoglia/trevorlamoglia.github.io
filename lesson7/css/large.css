@@ -17,6 +17,10 @@
         grid-gap: 20px;
         padding-bottom: 15px;
     }
+    .gallery img {
+        max-width: 100%;
+        display: block;
+    }
 
     /* nav rules here */
     nav button {
