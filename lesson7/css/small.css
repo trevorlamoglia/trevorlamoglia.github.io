@@ -37,7 +37,6 @@ main h1 {
     padding-bottom: 15px;
 }
 .gallery figure {
-    box-shadow: 0 0 7px black;
     margin: 0;
     max-width: 100%;
 }

@@ -17,9 +17,12 @@
         grid-gap: 20px;
         padding-bottom: 15px;
     }
+    .gallery figure {
+        box-shadow: 2px 0 7px black;
+    }
     .gallery img {
         max-width: 100%;
-        display: block;
+        display: block;  
     }
 
     /* nav rules here */
