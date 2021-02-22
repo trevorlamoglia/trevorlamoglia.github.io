@@ -43,6 +43,8 @@ main h1 {
 .gallery img {
     max-width: 100%;
     display: block;
+    filter: blur(0em);
+    transition: filter 0.5s;
 }
 .gallery figcaption {
     text-align: center;
