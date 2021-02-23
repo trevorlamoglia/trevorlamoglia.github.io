@@ -25,6 +25,9 @@ td, th {
 thead {
     background-color: #7fb9c2;
 }
+thead tr {
+    font-size: 1.7rem;
+}
 
 tbody > :first-child {
     color:white;
