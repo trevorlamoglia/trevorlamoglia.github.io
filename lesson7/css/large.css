@@ -17,8 +17,8 @@
         grid-gap: 20px;
         padding-bottom: 15px;
     }
-    .gallery figure {
-        box-shadow: 2px 0 7px black;
+    .gallery figure:hover {
+        box-shadow: 3px 0 8px black;
     }
     .gallery img {
         max-width: 100%;
