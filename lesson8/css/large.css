@@ -11,6 +11,10 @@
         margin: auto;
         position: relative;
     }
+
+    form label.sbs {
+        padding: .4rem 0;
+    }
     
 
     /* nav rules here */

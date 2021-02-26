@@ -26,7 +26,57 @@ header img {
 }
 
 /* main rules here */
+h1, form fieldset {
+    max-width: 650px;
+    margin: 20px auto;
+}
 
+form fieldset {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+form legend {
+    color: black;
+    margin: 0 1rem;
+    padding: 0 .5rem; 
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+}
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font: 16px;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,.1);
+}
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+form input.submitBtn {
+    border: none;
+    background-color: #63c5da;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 5px 475px;
+}
+form label.top input:required {
+    border-left: 6px solid red;
+}
+form label.top input:required:valid {
+    border-left: 6px solid green;
+}
 
 
 /* nav rules here */
