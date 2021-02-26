@@ -69,7 +69,7 @@ form input.submitBtn {
     color: black;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
-    margin: 5px 475px;
+    margin: 5px 465px;
 }
 form label.top input:required {
     border-left: 6px solid red;
