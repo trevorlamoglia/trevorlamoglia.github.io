@@ -33,7 +33,7 @@ main .hero {
     display: none;
 }
 
-div {
+main div {
     background-color: #63c5da;
     text-align: center;
 }
@@ -45,8 +45,17 @@ section {
     background-color: #fa8223;
 }
 
-h2, h3 {
+main h2, h3 {
     color: white;
+}
+
+article h2 {
+    color: black;
+    padding: 10px;
+}
+.articleImage {
+    width: 100%;
+    padding-bottom: 15px;
 }
 
 /* nav rules here */
@@ -90,7 +99,27 @@ footer {
     color: black;
     padding: 1px;
 }
-
+.location img {
+    padding: 15px;
+    width: 100%;
+}
+.social {
+    display: none;
+}
+.pin {
+    display: none;
+}
+.contact {
+    padding-left: 30px;
+}
+.contact img {
+    width: 30px;
+    padding-right: 5px;
+}
+.contact p {
+    padding: 5px 0;
+    margin: 0;
+}
 footer h5 {
     text-align: center;
 }
