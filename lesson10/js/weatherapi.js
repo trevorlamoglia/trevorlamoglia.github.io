@@ -16,5 +16,33 @@ fetch(apiURL)
         let windchill = 35.74 + (0.6215 * temperature) - (35.75 * Math.pow(speed, 0.16))
         + (0.4275 * temperature * Math.pow(speed, 0.16));
 
-        windchill = Math.round(windchill);
+        if (temperature <= 50 && speed > 3) {
+
+            document.getElementById('chill').innerHTML = Math.round(windchill);
+          } else {
+      
+            windchill = "N/A";
+          }
+    });
+
+
+const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=f733a7a677f906c085116effb07477c2&units=imperial';
+fetch(forecastURL)
+    .then((response) => response.json())
+    .then((forecastObject) => {
+        console.log(forecastObject)
+        var forecast = forecastObject.list.filter(x => x.dt_txt.includes('18:00:00'));
+        console.log(forecast)
+        const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+        
+      for (let day = 0; day < forecast.length; day++) {
+          const d = new Date(forecast[day].dt_txt);
+          const imagesrc = 'https://openweathermap.org/img/wn/' + forecast[day].weather[0].icon + '@2x.png';
+          const desc = forecast[day].weather[0].description;
+          document.getElementById(`dayofweek${day+1}`).textContent = weekdays[d.getDay()];
+          document.getElementById(`forecast${day+1}`).textContent = Math.round(forecast[day].main.temp);
+          document.getElementById(`icon${day+1}`).setAttribute('src', imagesrc);
+          document.getElementById(`icon${day+1}`).setAttribute('alt', desc);
+      }
+
     });
