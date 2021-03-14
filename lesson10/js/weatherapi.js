@@ -33,7 +33,7 @@ fetch(forecastURL)
         console.log(forecastObject)
         var forecast = forecastObject.list.filter(x => x.dt_txt.includes('18:00:00'));
         console.log(forecast)
-        const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+        const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
         
       for (let day = 0; day < forecast.length; day++) {
           const d = new Date(forecast[day].dt_txt);
