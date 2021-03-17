@@ -1,0 +1,35 @@
+@media only screen and (min-width: 480px) {
+
+    header {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+
+    /* main rules here */
+    main .heroImage {
+        width: 100%;
+    }
+
+    .forecastTitle {
+        display: block;
+        padding-left: 15px;
+    }
+    .forecast img {
+        padding-top: 20px;
+    }
+    section.forecast {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    section.forecast div {
+        text-align: center;
+        border: 1px solid #aaa;
+    }
+    section.forecast div h5 {
+        background-color: #fa8223;
+        margin: 0;
+        padding: 1rem 0;
+    }
+
+    
+}
