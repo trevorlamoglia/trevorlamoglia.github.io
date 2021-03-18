@@ -21,7 +21,7 @@ fetch(apiURL)
             document.getElementById('chill').innerHTML = Math.round(windchill);
           } else {
       
-            document.getElementById('chill').innerHTML = windchill = "No windchill";
+            document.getElementById('chill').innerHTML = windchill = "N/A";
           }
     });
 

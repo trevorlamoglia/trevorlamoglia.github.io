@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="W08 Assignment for WDD 230">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -12,11 +13,32 @@
 </head>
 
 <body>
+    <header>
+        <img src="images/logo.png" alt="Weather Buddies logo">
+        <h1>Weather Buddies</h1>
+        <h2>We'll scout ahead!</h2>
+    </header>
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="../lesson9/index.html">Home</a></li>
+            <li><a href="../lesson10/preston.html">Preston</a></li>
+            <li><a href="../lesson11/sodasprings.html">Soda Springs</a></li>
+            <li><a href="../lesson11/fishhaven.html">Fish Haven</a></li>
+            <li class="active"><a href="../lesson8/stormCenter.html">Storm Center</a></li>
+            <li><a href="../lesson7/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
 
     <main>
         <p>Thank you for filling out this form.</p>
     </main>
 
-    <a href="stormCenter.html">Back to Form</a>
+    <footer>
+        <h5>&copy; <span id="year"></span> | Trevor L. Lamoglia | Abu Dhabi, UAE | <span id="presentDate"></span></h5>
+    </footer>
+
+    <script src="js/preston.js"></script>
 </body>
 </html>

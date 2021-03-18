@@ -32,15 +32,3 @@ const monthName = months[dateToday.getMonth()];
 const year = dateToday.getFullYear();
 const presentDate = dayName + "," + " " + dateToday.getDate() + " " + monthName + " " + year;
 document.getElementById("presentDate").textContent = presentDate;
-
-// Show date message
-const today = new Date();
-const dayNumber = today.getDay();
-
-const element = document.getElementById("message");
-if (dayNumber == 5) {
-    element.classList.add("showme");
-}
-else {
-    element.classList.add("hideme");
-}

@@ -11,9 +11,6 @@
         margin: auto;
         position: relative;
     }
-    main .heroImage {
-        width: 100%;
-    }
     .summary {
         background-color: rgba(57, 40, 148, 0.541);
         color: white;
@@ -43,8 +40,9 @@
         text-align: left;
         background-color: transparent;
     }
-    .forecast {
-        border: none;
+    section.forecast {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 
     article {
