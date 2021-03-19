@@ -36,10 +36,29 @@ main img.hero {
     display: block;
 }
 main .summary {
-    padding-left: 15px;
+    max-width: 350px;
+    margin: 10px auto;
+    text-align: center;
+    border: 10px solid black;
+    background-color: #fa8223;
 }
 h1 {
     padding-left: 15px;
+}
+
+.events {
+    max-width: 350px;
+    margin: 10px auto;
+    text-align: center;
+    border: 10px solid black;
+    background-color: #fa8223;
+}
+.events h2 {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+.events p {
+    font-size: 1.1rem;
 }
 
 .forecastTitle {
@@ -110,7 +129,7 @@ footer {
 }
 .location img {
     padding: 15px;
-    width: 100%;
+    width: 90%;
     display: none;
 }
 .social {
@@ -132,6 +151,13 @@ footer {
 }
 footer h5 {
     text-align: center;
+}
+
+.owm {
+    text-align: center;
+}
+.owm a {
+    color: black;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/

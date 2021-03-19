@@ -26,6 +26,10 @@
     }
 
     /* nav rules here */
+    nav {
+        max-width: 1080px;
+        margin: auto;
+    }
     nav button {
         display: none;
     }

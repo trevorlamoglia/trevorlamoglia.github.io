@@ -11,7 +11,7 @@
         margin: auto;
         position: relative;
     }
-    .summary {
+    main .summary {
         background-color: rgba(57, 40, 148, 0.541);
         color: white;
         border: 1px solid black;
@@ -22,7 +22,7 @@
         height: 285px;
         padding: 10px;
     }
-    .summary h2 {
+    main .summary h2 {
         text-decoration: underline;
     }
     main .forecastImage {
@@ -65,12 +65,12 @@
     }
 
     /* nav rules here */
-    nav button {
-        display: none;
-    }
-    nav ul {
+    nav {
         max-width: 1080px;
         margin: auto;
+    }
+    nav button {
+        display: none;
     }
     nav ul.hide {
         display: inline;
@@ -106,7 +106,6 @@
     }
     .location {
         padding-top: 30px;
-        padding-right: 100px;
     }
     .location img {
         display: inline;
