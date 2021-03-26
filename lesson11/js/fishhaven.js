@@ -56,4 +56,5 @@ fetch(requestURL)
         document.getElementById('event1').textContent = jsObject.towns[2].events[0];
         document.getElementById('event2').textContent = jsObject.towns[2].events[1];
         document.getElementById('event3').textContent = jsObject.towns[2].events[2];
+        document.getElementById('event4').textContent = jsObject.towns[2].events[3];
     });
