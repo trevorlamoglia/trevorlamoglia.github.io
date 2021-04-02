@@ -22,7 +22,7 @@
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">City</a></li>
+            <li><a href="city.html">City</a></li>
             <li><a href="#">Join</a></li>
             <li><a href="#">Directory</a></li>
             <li><a href="#">Contact</a></li>
@@ -50,10 +50,38 @@
             </p>
         </div>
         <div class="events">
-            <h2>Upcoming Events: </h2>
+            <h2>Upcoming Events:</h2>
             <p><span id="event1"></span></p>
             <p><span id="event2"></span></p>
             <p><span id="event3"></span></p>
+        </div>
+        <div class="weather">
+            <h2>Current Weather:</h2>
+            <p>Temperature: <span id="current-temp"></span>&deg;C</p>
+            <p>High: <span id="temp-max"></span>&deg;C</p>
+            <p>Humidity: <span id="humidity"></span>%</p>
+
+            <div class="forecast">
+                <h5><span id="dayofweek1"></span></h5>
+                <img id="icon1"
+                src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true"
+                alt="unknown">
+                <p><span id="forecast1"></span>&#8457;</p>
+            </div>
+            <div>
+                <h5><span id="dayofweek2"></span></h5>
+                <img id="icon2"
+                src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true"
+                alt="unknown">
+                <p><span id="forecast2"></span>&#8457;</p>
+            </div>
+            <div>
+                <h5><span id="dayofweek3"></span></h5>
+                <img id="icon3"
+                src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true"
+                alt="unknown">
+                <p><span id="forecast3"></span>&#8457;</p>
+            </div>
         </div>
 
     </main>
@@ -63,5 +91,6 @@
     </footer>
 
     <script src="js/events.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>

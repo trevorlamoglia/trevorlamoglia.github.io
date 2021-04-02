@@ -58,18 +58,32 @@ main {
 main img {
     width: 100%;
 }
-main div.purpose, div.goal {
+main div.purpose {
     width: 1080px;
     text-align: center;
     margin: 0 auto;
     border: 1px solid #000;
     margin-bottom: 10px;
 }
+main div.goal {
+    width: 1080px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #000;
+    margin-bottom: 25px;
+}
 main div.purpose p, div.goal p, div.events p {
     font-size: 18px;
 }
 main div.events {
     width: 480px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #000;
+    margin-bottom: 25px;
+}
+main div.weather {
+    width: 360px;
     text-align: center;
     margin: 0 auto;
     border: 1px solid #000;
