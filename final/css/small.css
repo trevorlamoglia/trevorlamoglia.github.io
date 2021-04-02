@@ -83,9 +83,24 @@ main div.events {
     margin-bottom: 25px;
 }
 main div.weather {
-    width: 360px;
-    text-align: center;
+    max-width: 720px;
     margin: 0 auto;
-    border: 1px solid #000;
-    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 300px 125px 125px 125px;
+    grid-gap: 15px;
+}
+main div.weather h5 {
+    font-size: 19px;
+}
+main div.weather img {
+    width: 75px;
+}
+main div.weather > div:nth-child(2), div:nth-child(3), div:nth-child(4) {
+    text-align: center;
+    border: 1px solid black;
+}
+main div.weather div.weather1 {
+    border: 1px solid black;
+    padding-left: 10px;
+    margin-right: 70px;
 }
