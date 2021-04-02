@@ -1,13 +1,11 @@
 {
-"name": "Soda Springs",
-"photo": "sodasprings.jpg",
-"motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
-"yearFounded": 1858,
-"currentPopulation": 2985,
-"averageRainfall": 15.75,
+"name": "Abu Dhabi",
+"motto": "Abu Dhabi. Safe and Secure.",
+"yearFounded": 1761,
+"currentPopulation": 1512000,
 "events": [
-    "October 21: Abu Dhabi Festival",
-    "May 1-6: Days of May Celebration",
-    "October 15-16: Octoberfest"
+    "April 01: Celebrate Easter at The Galleria",
+    "September 27: Abu Dhabi International Hunting & Equestrian Exhibition",
+    "October 21: Abu Dhabi Festival"
 ]
 }
