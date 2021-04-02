@@ -1,0 +1,70 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* HEADER STYLE */
+header {
+    background-color: #3a405a;
+    color: #fff;
+    text-align: center;
+}
+header img {
+    display: inline-block;
+    width: 100px;
+}
+header h1 {
+    display: inline-block;
+    margin: 0;
+}
+.wrap {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* NAV STYLE */
+nav {
+    background-color: #7699D4;
+    padding: 1px 0;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #fff;
+}
+nav a:hover {
+    background-color: #3a405a;
+}
+nav a:active {
+    background-color: #E9AFA3;
+    color: #000;
+}
+
+/* MAIN STYLE */
+main {
+    background-color: #F9DEC9;
+    color: #000;
+}
+main img {
+    width: 100%;
+}
+main div.purpose, div.goal {
+    width: 1080px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+}
+main div.purpose p, div.goal p {
+    font-size: 18px;
+}
