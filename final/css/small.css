@@ -65,6 +65,13 @@ main div.purpose, div.goal {
     border: 1px solid #000;
     margin-bottom: 10px;
 }
-main div.purpose p, div.goal p {
+main div.purpose p, div.goal p, div.events p {
     font-size: 18px;
+}
+main div.events {
+    width: 480px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #000;
+    margin-bottom: 10px;
 }
