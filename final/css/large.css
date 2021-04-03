@@ -1,0 +1,61 @@
+@media only screen and (min-width: 1080px) {
+/* -------------------------------------------------------INDEX PAGE STYLE-------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------CONTACT PAGE STYLE-------------------------------------------------------- */
+    main {
+        position: relative;
+    }
+    main .banner {
+        display: block;
+        position: absolute;
+        bottom: 300px;
+        left: 200px;
+    }
+    main .comms {
+        max-width: 1080px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    main .reach {
+        grid-column: 1 / 2;
+    }
+    main .contact {
+        grid-column: 2 / 3;
+    }
+    main .email {
+        grid-column: 3 / 4;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
