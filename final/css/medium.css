@@ -1,6 +1,35 @@
-@media only screen and (min-width: 480px) {
-    
-    
+@media only screen and (min-width: 720px) {
+/* -------------------------------------------------------INDEX PAGE STYLE-------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------CONTACT PAGE STYLE-------------------------------------------------------- */
+    main {
+        position: relative;
+    }
+    main .banner {
+        display: block;
+        position: absolute;
+        bottom: 450px;
+        left: 100px;
+    }
+    main .comms {
+        max-width: 1080px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
 
 

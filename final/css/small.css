@@ -7,6 +7,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 html {
     background-color: #F9DEC9;
     color: #000;
+    font-family: 'Quicksand', sans-serif;
 }
 
 /* HEADER STYLE */
@@ -47,12 +48,12 @@ nav ul li a {
     padding: 10px 15px;
     border: 1px solid #000;
 }
-nav a:hover {
+nav ul li a:hover {
     background-color: #3a405a;
     color: #fff;
     border: 1px solid #fff;
 }
-nav a:active {
+nav ul li.active a {
     background-color: #E9AFA3;
     color: #000;
 }
@@ -269,4 +270,46 @@ form label.top input:required:valid {
 /* thank you page */
 main .welcome {
     text-align: center;
+}
+
+
+
+
+
+
+/* -------------------------------------------------------CONTACT PAGE STYLE-------------------------------------------------------- */
+main {
+    position: relative;
+}
+main .banner {
+    display: none;
+    position: absolute;
+    bottom: 300px;
+    left: 200px;
+}
+main .comms {
+    max-width: 480px;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }

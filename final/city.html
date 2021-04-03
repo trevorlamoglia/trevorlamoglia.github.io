@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <title>Abu Dhabi Chamber</title>
@@ -19,8 +20,9 @@
         </div>
     </header>
 
-    <nav>
-        <ul>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
             <li><a href="index.html">Home</a></li>
             <li class="active"><a href="city.html">City</a></li>
             <li><a href="join.html">Join</a></li>
