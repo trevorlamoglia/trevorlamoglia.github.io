@@ -241,7 +241,7 @@ form legend {
     margin: 0 1rem;
     padding: 0 .5rem; 
 }
-form label.top {
+form label.top, form div {
     display: block;
     padding-top: 1rem;
     color: black;
@@ -257,11 +257,16 @@ form input.submitBtn {
     color: black;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
-    margin: 5px 465px;
+    margin: 5px 710px;
 }
 form label.top input:required {
     border-left: 6px solid red;
 }
 form label.top input:required:valid {
     border-left: 6px solid green;
+}
+
+/* thank you page */
+main .welcome {
+    text-align: center;
 }
