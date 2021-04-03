@@ -134,7 +134,7 @@ main .company .title {
     font-size: 20px;
 }
 main .company p {
-    padding: 7px 7px 0 7px;
+    padding: 7px 7px 0px 7px;
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 0;
@@ -171,8 +171,10 @@ main .register a {
 footer {
     background-color: #3a405a;
 }
+
 footer .info {
-    display: inline-block;
+    margin-left: 498px;
+    padding-top: 15px;
 }
 
 /* contact */
@@ -180,16 +182,42 @@ footer .contact {
     background-color: #7699D4;
     display: inline-block;
     border: 1px solid #000;
+    padding: 15px;
+    font-size: 17px;
 }
 footer .contact h5 {
     font-size: 19px;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 footer .contact img {
     width: 25px;
 }
+footer .pin {
+    padding-top: 5px;
+}
 
 /* social */
 footer .social {
+    background-color: #7699D4;
     display: inline-block;
     border: 1px solid #000;
+    padding: 15px;
+    text-align: center;
+}
+footer .social p {
+    font-size: 18px;
+}
+footer .social img {
+    width: 40px;
+    padding: 5px;
+    
+}
+
+/* copywrite */
+footer .copywrite h5 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
 }
