@@ -1,5 +1,97 @@
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 720px) {
 /* -------------------------------------------------------INDEX PAGE STYLE-------------------------------------------------------- */
+    /* NAV STYLE */
+    nav button {
+        display: none;
+    }
+    nav ul {
+        list-style: none;
+        text-align: center;
+    }
+    nav ul.hide {
+        display: inline;
+    }
+    nav ul#primaryNav {
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li {
+        display: inline-block;
+        padding: 0 20px;
+    }
+        
+    /* MAIN STYLE */
+    main div.purpose {
+        max-width: 1080px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    main div.goal {
+        max-width: 1080px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    main div.events {
+        width: 480px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+
+    /* weather */
+    main div.weather {
+        max-width: 720px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 300px 125px 125px 125px;
+        grid-gap: 15px;
+    }
+    main div.weather div.weather1 {
+        margin-right: 70px;
+        text-align: left;
+    }
+
+    /* company */
+    main .company {
+        max-width: 1080px;
+        margin: 25px auto;
+        display: table;
+        box-shadow: 0 11px 18px -8px rgba(0, 0, 0, 0.75);
+    }
+    main .company img {
+        width: 540px;
+        height: 310px;
+        vertical-align: middle;
+        box-shadow: 0 11px 18px -8px rgba(0, 0, 0, 0.75);
+    }
+    main .company-content {
+        display: table-cell;
+        border: 1px solid #000;
+        text-align: justify;
+        vertical-align: middle;
+        background-color: #685044;
+        color: #fff;
+    }
+
+    /* FOOTER STYLE */
+    footer .contact {
+        display: inline-block;
+    }
+    footer .social {
+        display: inline-block;
+    }
+
+
+
+
+/* -------------------------------------------------------CITY PAGE STYLE-------------------------------------------------------- */
+    /* MAIN STYLE */
+    main {
+        max-width: 1380px;
+        margin: 0 auto;
+    }
+    main h1 {
+        font-size: 56px;
+    }
 
 
 
@@ -12,6 +104,11 @@
 
 
 
+
+
+/* -------------------------------------------------------JOIN PAGE STYLE-------------------------------------------------------- */
+    /* MAIN STYLE */
+    
 
 
 
@@ -27,7 +124,7 @@
     main .banner {
         display: block;
         position: absolute;
-        bottom: 300px;
+        top: 100px;
         left: 200px;
     }
     main .comms {
@@ -35,14 +132,15 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-    main .reach {
-        grid-column: 1 / 2;
+    main .btitle {
+        max-width: 1080px;
+        margin: 15px auto;
     }
-    main .contact {
-        grid-column: 2 / 3;
-    }
-    main .email {
-        grid-column: 3 / 4;
+    main .board {
+        max-width: 1080px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
 

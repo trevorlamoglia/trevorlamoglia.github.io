@@ -23,8 +23,8 @@
     </header>
 
     <nav class="clearfix">
-        
-        <ul>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
             <li><a href="index.html">Home</a></li>
             <li><a href="city.html">City</a></li>
             <li><a href="join.html">Join</a></li>
@@ -72,7 +72,70 @@
             </div>
         </div>
 
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14523.64640030173!2d54.3524459!3d24.4885196!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6a03860511e9ebca!2sAbu%20Dhabi%20Chamber%20of%20Commerce%20%26%20Industry!5e0!3m2!1sen!2sus!4v1617488803156!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <div class="cform">
+            <form method="get" action="message.html">
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <label class='top'>First Name* <input type="text" name="fname" pattern="[A-Za-z ]{5,}" required></label>
+                    <label class='top'>Last Name* <input type="text" name="lname" pattern="[A-Za-z ]{5,}" required></label>
+                    <label class='top'>Title <input type="text" name="name" pattern="[A-Za-z ]{5,}"></label>
+                    <label class='top'>Email* <input type="email" name="email" placeholder="user@mail.com" required></label>
+                    <label class='top'>Phone (Optional) <input type="tel" name="phone" placeholder="1234567890"></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Message</legend>
+                    <label><textarea name="additionalInfo" placeholder="Enter comment here..." rows="10" cols="50" required></textarea></label>
+                </fieldset>
         
+                <input class="submitBtn" type="submit" value="Submit Message">
+            </form>
+        </div>
+
+        <h2 class="btitle">Board of Directors</h2>
+        <div class="board">
+            <div class="rumaithi">
+                <img src="images/Rumaithi.JPG" alt="chairman">
+                <p>
+                    H.E. Muhammad<br>
+                    Thani Murshed<br>
+                    Ghannam Al<br>
+                    Rumaithi
+                </p>
+                <h4>Chairman</h4>
+            </div>
+            <div class="mahmood">
+                <img src="images/Mahmood.JPG" alt="first-vice">
+                <p>
+                    H.E. Ebraheem<br>
+                    Mahmood<br>
+                    Muhammad Al<br>
+                    Mahmood
+                </p>
+                <h4>First Vice Chairman</h4>
+            </div>
+            <div class="marar">
+                <img src="images/Marar.JPG" alt="second-vice">
+                <p>
+                    H.E. Altaher<br>
+                    Musabah Al Kendi<br>
+                    Al Marar
+                </p>
+                <h4>Second Vice Chairman</h4>
+            </div>
+            <div class="qubaisi">
+                <img src="images/Qubaisi.JPG" alt="treasurer">
+                <p>
+                    H.E. Muhammad<br>
+                    Mehanna Al<br>
+                    Qubaisi
+                </p>
+                <h4>Treasurer</h4>
+            </div>
+        </div>
+
 
     </main>
 
