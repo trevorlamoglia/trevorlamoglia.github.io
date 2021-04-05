@@ -30,7 +30,7 @@ fetch(requestURL)
             card.appendChild(founded);
             card.appendChild(contact);
 
-            document.querySelector('div.cards').appendChild(card);
+            document.querySelector('div.column').appendChild(card);
         }
 
     })
