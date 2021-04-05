@@ -136,7 +136,19 @@
     main div.column3 img {
         width: 180px;
     }
-    .column1, .column2 {
+    .column1 div,
+    .column2 div,
+    .column3 div {
+        border: 2px solid #000;
+        padding: 10px;
+        margin: 10px;
+    }
+    .column1 div:hover,
+    .column2 div:hover,
+    .column3 div:hover {
+        background-color: #e9afa3;
+    }
+    .column1, .column2, .column3 {
         float: left;
         width: 50%;
         padding: 10px;
