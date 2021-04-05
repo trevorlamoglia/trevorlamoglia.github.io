@@ -19,7 +19,7 @@
         display: inline-block;
         padding: 0 20px;
     }
-        
+
     /* MAIN STYLE */
     main div.purpose {
         max-width: 1080px;
@@ -85,18 +85,99 @@
 
 /* -------------------------------------------------------CITY PAGE STYLE-------------------------------------------------------- */
     /* MAIN STYLE */
-    main {
-        /* max-width: 1380px; */
+    main .abudhabi {
+        max-width: 1300px;
         margin: 0 auto;
     }
     main h1 {
+        text-align: center;
         font-size: 56px;
     }
+    main h2 {
+        font-size: 30px;
+    }
+
+    /* content */
+    main #content {
+        display: grid;
+        grid-template-rows: repeat(1fr, 4);
+    }
+    main #nav {
+        float: left;;
+    }
+    main #nav a {
+        display:inline-block;
+        text-decoration:none;
+        color: black;
+        font-size: 18px;
+        padding: 0 15px;
+    }
+
+    /* page styles */
     main div img {
+        display: block;
+        padding-left: 25px;
         width: 525px;
+    }
+    main h2, p {
+        padding-left: 45px;
+    }
+    main h2 {
+        margin-bottom: 15px;
+    }
+    main p {
+        margin-top: 0;
+    }
+
+    /* iconic */
+    .louvre img,
+    .mosque img,
+    .hosn img {
+        transition: transform .2s;
+    }
+    .louvre img:hover,
+    .mosque img:hover,
+    .hosn img:hover {
+        transform: scale(1.1);
+    }
+
+    /* relaxation */
+    .nurai img {
+        transition: transform .2s;
+    }
+    .nurai img:hover {
+        transform: scale(1.1);
+    }
+
+    /* adventure */
+    .wadi img {
+        transition: transform .2s;
+    }
+    .wadi img:hover {
+        transform: scale(1.1);
     }
 
 
+    /* pages */
+    .page {
+        display: none;
+        background-color: #e9afa3;
+        padding-left: 20px;
+        padding-top: 20px;
+        margin: 0px;
+        height: 100%;
+    }
+    .default {
+        display: block;
+    }
+
+    :target {
+        display: block;
+    }
+
+    :target ~ .default {
+        display: none;
+    }
 
 
 
@@ -111,7 +192,6 @@
 
 /* -------------------------------------------------------JOIN PAGE STYLE-------------------------------------------------------- */
     /* MAIN STYLE */
-    
 
 
 
@@ -124,15 +204,16 @@
 
 
 
-/* -------------------------------------------------------DIRECTORY PAGE STYLE-------------------------------------------------------- */    
+
+/* -------------------------------------------------------DIRECTORY PAGE STYLE-------------------------------------------------------- */
 
     main .companies {
         max-width: 936px;
         margin: 0 auto;
     }
 
-    main div.column1 img, 
-    main div.column2 img, 
+    main div.column1 img,
+    main div.column2 img,
     main div.column3 img {
         width: 180px;
     }
