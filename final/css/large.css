@@ -62,6 +62,10 @@
         height: 310px;
         vertical-align: middle;
         box-shadow: 0 11px 18px -8px rgba(0, 0, 0, 0.75);
+        transition: transform .2s;
+    }
+    main .company img:hover {
+        transform: scale(1.1);
     }
     main .company-content {
         display: table-cell;
@@ -89,11 +93,11 @@
         max-width: 1300px;
         margin: 0 auto;
     }
-    main h1 {
+    main .abudhabi h1 {
         text-align: center;
         font-size: 56px;
     }
-    main h2 {
+    main .abudhabi h2 {
         font-size: 30px;
     }
 
@@ -112,17 +116,26 @@
         font-size: 18px;
         padding: 0 15px;
     }
+    main #nav a:link {
+        text-decoration: underline;
+    }
+    main #nav a:hover {
+        font-weight: bold;
+    }
 
     /* page styles */
-    main div img {
-        display: block;
+    main div#iconic img,
+    main div#relaxation img,
+    main div#adventure img {
+        display: table-cell;
         padding-left: 25px;
         width: 525px;
+        height: 250px;
     }
-    main h2, p {
-        padding-left: 45px;
+    main .abudhabi h2, p {
+        text-align: center;
     }
-    main h2 {
+    main .abudhabi h2 {
         margin-bottom: 15px;
     }
     main p {
@@ -130,6 +143,26 @@
     }
 
     /* iconic */
+    .lrow,
+    .mrow,
+    .hrow {
+        max-width: fit-content;
+        margin: 0 auto;
+    }
+    .lcol,
+    .mcol,
+    .hcol {
+        float: left;
+        padding: 5px;
+    }
+    .lrow::after,
+    .mrow::after,
+    .hrow::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
     .louvre img,
     .mosque img,
     .hosn img {
@@ -142,28 +175,74 @@
     }
 
     /* relaxation */
-    .nurai img {
+    .nrow,
+    .brow,
+    .prow {
+        max-width: fit-content;
+        margin: 0 auto;
+    }
+    .ncol,
+    .bcol,
+    .pcol {
+        float: left;
+        padding: 5px;
+    }
+    .nrow::after,
+    .brow::after,
+    .prow::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .nurai img,
+    .beach img,
+    .palace img {
         transition: transform .2s;
     }
-    .nurai img:hover {
+    .nurai img:hover,
+    .beach img:hover,
+    .palace img:hover {
         transform: scale(1.1);
     }
 
     /* adventure */
-    .wadi img {
-        transition: transform .2s;
+    .wrow,
+    .crow,
+    .frow {
+        max-width: fit-content;
+        margin: 0 auto;
     }
-    .wadi img:hover {
-        transform: scale(1.1);
+    .wcol,
+    .ccol,
+    .fcol {
+        float: left;
+        padding: 5px;
+    }
+    .wrow::after,
+    .crow::after,
+    .frow::after {
+        content: "";
+        clear: both;
+        display: table;
     }
 
+    .wadi img,
+    .clymb img,
+    .ferrari img {
+        transition: transform .2s;
+    }
+    .wadi img:hover,
+    .clymb img:hover,
+    .ferrari img:hover {
+        transform: scale(1.1);
+    }
 
     /* pages */
     .page {
         display: none;
         background-color: #e9afa3;
-        padding-left: 20px;
-        padding-top: 20px;
+        padding: 20px 0;
         margin: 0px;
         height: 100%;
     }
@@ -177,6 +256,18 @@
 
     :target ~ .default {
         display: none;
+    }
+
+    .location {
+        font-size: 18px;
+    }
+
+    .paragraph {
+        max-width: 1080px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 20px;
+        padding: 10px 0;
     }
 
 
