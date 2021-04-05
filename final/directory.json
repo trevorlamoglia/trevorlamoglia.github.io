@@ -19,41 +19,41 @@
         {
             "name": "Abu Dhabi Commercial Bank",
             "photo": "adcb.png",
-            "founded": 1971,
+            "founded": 1985,
             "headquarters": "Abu Dhabi, United Arab Emirates",
             "industry": "Financials",
-            "contact": 97144246620
+            "contact": 97126210090
         },
         {
             "name": "Abu Dhabi Media",
             "photo": "media.jpg",
             "founded": 1971,
             "headquarters": "Abu Dhabi, United Arab Emirates",
-            "industry": "Oil and gas",
+            "industry": "Consumer services",
             "contact": 97124455555
         },
         {
             "name": "Etisalat",
             "photo": "etisalat.png",
-            "founded": 1971,
+            "founded": 1976,
             "headquarters": "Abu Dhabi, United Arab Emirates",
-            "industry": "Oil and gas",
+            "industry": "Telecommunications",
             "contact": 9718002300
         },
         {
             "name": "Aldar Properties",
             "photo": "aldar.jpg",
-            "founded": 1971,
+            "founded": 2001,
             "headquarters": "Abu Dhabi, United Arab Emirates",
-            "industry": "Oil and gas",
+            "industry": "Financials",
             "contact": 97128106400
         },
         {
             "name": "Abu Dhabi National Hotels",
             "photo": "adnh.jpg",
-            "founded": 1971,
+            "founded": 2000,
             "headquarters": "Abu Dhabi, United Arab Emirates",
-            "industry": "Oil and gas",
+            "industry": "Consumer services",
             "contact": 97124447228
         }
     ]
