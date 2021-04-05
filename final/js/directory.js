@@ -16,10 +16,10 @@ fetch(requestURL)
             let image = document.createElement('img');
 
             h2.textContent = companies[i].name;
-            industry.textContent = companies[i].industry;
-            hq.textContent = companies[i].headquarters;
-            founded.textContent = companies[i].founded;
-            contact.textContent = companies[i].contact;
+            industry.textContent = "Industry: " + companies[i].industry;
+            hq.textContent = "Headquarters: " + companies[i].headquarters;
+            founded.textContent = "Founded: " + companies[i].founded;
+            contact.textContent = "Contact number: +" + companies[i].contact;
             image.setAttribute('src', 'images/' + companies[i].photo);
             image.setAttribute('alt', companies[i].name + ' logo');
 
