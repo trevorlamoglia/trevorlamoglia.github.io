@@ -131,7 +131,9 @@
         margin: 0 auto;
     }
 
-    main div.column1 img, main div.column2 img {
+    main div.column1 img, 
+    main div.column2 img, 
+    main div.column3 img {
         width: 180px;
     }
     .column1, .column2 {
