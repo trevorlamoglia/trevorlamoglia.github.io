@@ -1,0 +1,48 @@
+{
+    "companies": [
+        {
+            "name": "ADNOC Group",
+            "photo": "adnoc.jpg",
+            "website": "https://www.adnoc.ae/",
+            "contact": 97127070000
+        },
+        {
+            "name": "Etihad Airways",
+            "photo": "etihad.jpg",
+            "website": "https://www.etihadairways.com/",
+            "contact": 971600555666
+        },
+        {
+            "name": "Mashreq",
+            "photo": "mashreq.jpg",
+            "website": "https://www.mashreqbank.com/",
+            "contact": 97144246620
+        },
+        {
+            "name": "Abu Dhabi Media",
+            "photo": "media.jpg",
+            "website": "https://admedia.ae/",
+            "contact": 97124455555
+        },
+        {
+            "name": "Etisalat",
+            "photo": "etisalat.png",
+            "website": "https://www.etisalat.ae/",
+            "contact": 9718002300
+        },
+        {
+            "name": "Aldar Properties",
+            "photo": "aldar.jpg",
+            "website": "https://www.aldar.com/",
+            "contact": 97128106400
+        },
+        {
+            "name": "Abu Dhabi National Hotels",
+            "photo": "adnh.jpg",
+            "website": "https://www.adnh.com/",
+            "contact": 97124447228
+        }
+    ]
+}
+
+
