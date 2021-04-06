@@ -215,9 +215,23 @@ footer .copywrite h5 {
     padding-bottom: 10px;
 }
 
+/* -------------------------------------------------------CITY PAGE STYLE-------------------------------------------------------- */
 
+main .abudhabi h2, p {
+    padding-left: 15px;
+}
 
-
+main .nurai,
+main .beach,
+main .palace,
+main .wadi,
+main .clymb,
+main .ferrari,
+main .louve,
+main .mosque,
+main .hosn {
+    padding: 20px 0;
+}
 
 
 /* -------------------------------------------------------JOIN PAGE STYLE-------------------------------------------------------- */
@@ -251,7 +265,6 @@ form input.submitBtn {
     color: black;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
-    margin: 5px 710px;
 }
 form label.top input:required {
     border-left: 6px solid red;
@@ -260,13 +273,37 @@ form label.top input:required:valid {
     border-left: 6px solid green;
 }
 
+.buttonC {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 /* thank you page */
 main .welcome {
     text-align: center;
 }
 
-
-
+/* -------------------------------------------------------JOIN PAGE STYLE-------------------------------------------------------- */
+main .companies img {
+    width: 180px;
+}
+main div.column1 img,
+main div.column2 img,
+main div.column3 img {
+    width: 180px;
+}
+.column1 div,
+.column2 div,
+.column3 div {
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 10px;
+}
+.column1 div:hover,
+.column2 div:hover,
+.column3 div:hover {
+    background-color: #e9afa3;
+}
 
 
 
@@ -309,18 +346,24 @@ main .cform form input.submitBtn {
     color: black;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
-    margin: 5px 675px;
+}
+
+.contactB {
+    text-align: center;
 }
 
 /* board */
 main .board {
-    max-width: 480px;
+    max-width: fit-content;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
 }
 main .board img {
     width: 175px;
+}
+main .board h4 {
+    text-align: left;
 }
 
 

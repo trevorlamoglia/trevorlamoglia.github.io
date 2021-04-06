@@ -1,5 +1,25 @@
 @media only screen and (min-width: 480px) {
 /* -------------------------------------------------------INDEX PAGE STYLE-------------------------------------------------------- */
+    /* NAV STYLE */
+    nav button {
+        display: none;
+    }
+    nav ul {
+        list-style: none;
+        text-align: center;
+    }
+    nav ul.hide {
+        display: inline;
+    }
+    nav ul#primaryNav {
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li {
+        display: inline-block;
+        padding: 0 20px;
+    }
+
 
     /* MAIN STYLE */
     main div.purpose {
@@ -51,7 +71,22 @@
         display: inline-block;
     }
 
+/* -------------------------------------------------------CITY PAGE STYLE-------------------------------------------------------- */
+    main .abudhabi h2, p {
+        padding-left: 15px;
+    }
 
+    main .nurai,
+    main .beach,
+    main .palace,
+    main .wadi,
+    main .clymb,
+    main .ferrari,
+    main .louve,
+    main .mosque,
+    main .hosn {
+        padding: 20px 0;
+    }
 
 
 
@@ -72,6 +107,7 @@
     main .board {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
     }
 
 

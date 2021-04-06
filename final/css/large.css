@@ -132,7 +132,8 @@
         width: 525px;
         height: 250px;
     }
-    main .abudhabi h2, p {
+    main .abudhabi h2,
+    main .abudhabi p {
         text-align: center;
     }
     main .abudhabi h2 {
@@ -301,24 +302,6 @@
     main .companies {
         max-width: 936px;
         margin: 0 auto;
-    }
-
-    main div.column1 img,
-    main div.column2 img,
-    main div.column3 img {
-        width: 180px;
-    }
-    .column1 div,
-    .column2 div,
-    .column3 div {
-        border: 2px solid #000;
-        padding: 10px;
-        margin: 10px;
-    }
-    .column1 div:hover,
-    .column2 div:hover,
-    .column3 div:hover {
-        background-color: #e9afa3;
     }
     .column1, .column2, .column3 {
         float: left;
