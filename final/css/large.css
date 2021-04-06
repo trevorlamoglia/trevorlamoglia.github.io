@@ -103,8 +103,7 @@
 
     /* content */
     main #content {
-        display: grid;
-        grid-template-columns: repeat(1fr, 3);
+        display: inline-block;
     }
     main #nav {
         float: left;;
