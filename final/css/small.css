@@ -278,12 +278,43 @@ form label.top input:required:valid {
     padding-bottom: 10px;
 }
 
+main .levels h3 {
+    text-align: center;
+}
+main .levels p, h4.add {
+    text-align: center;
+}
+main .levels .gold {
+    margin-bottom: 40px;
+}
+
+.non,
+.bronze,
+.silver,
+.gold {
+    margin: 10px 0;
+    padding: 5px 10px;
+    line-height: 30px;
+}
+.non {
+    border: 2px solid #000;
+}
+.bronze {
+    border: 2px solid brown;
+}
+.silver {
+    border: 2px solid silver;
+}
+.gold {
+    border: 2px solid gold;
+}
+
 /* thank you page */
 main .welcome {
     text-align: center;
 }
 
-/* -------------------------------------------------------JOIN PAGE STYLE-------------------------------------------------------- */
+/* -------------------------------------------------------DIRECTORY PAGE STYLE-------------------------------------------------------- */
 main .companies img {
     width: 180px;
 }
